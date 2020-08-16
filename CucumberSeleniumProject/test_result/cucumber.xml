@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="68.171603">
+<testcase classname="Magazine Page" name="Search for any destination on Magazine by using the search bar" time="32.341259">
+<system-out><![CDATA[Given user is in "room5.trivago.com" page...................................passed
+When user enters any search keyword on search bar...........................passed
+And user presses "enter key"................................................passed
+Then user should be redirected to search results page.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Magazine Page" name="Fill in the contact form and send it" time="20.296332">
+<system-out><![CDATA[Given user navigates to "room5.trivago.com" page............................passed
+When user clicks on "Contact" link in the footer............................passed
+Then new tab is opened......................................................passed
+When user fills the contact form and submits it.............................passed
+Then message "Message Sent Successfully!" should be displayed...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Magazine Page" name="Subscribe to the Newsletter" time="15.534012">
+<system-out><![CDATA[Given user enters "room5.trivago.com" page..................................passed
+When user enters email address in newsletter subscription textbox...........passed
+And user clicks on "Inspire me" button......................................passed
+Then Message "You are now checked-in!" should be displayed..................passed
+]]></system-out>
+</testcase>
+</testsuite>
